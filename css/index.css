@@ -1,0 +1,113 @@
+.main_name {
+    display: flex;
+    font-size: 24px;
+    font-weight: 700;
+    color: #ffffff;
+    align-items: center;
+    flex-direction: column;
+}
+
+a {
+    color: #ececec;
+}
+
+#name {
+    font-size: 46px;
+    font-weight: 700;
+}
+
+#email {
+    font-size: 18px;
+    color: #cacaca;
+    font-weight: 700;
+}
+
+.brief_detail {
+    display: flex;
+    font-size: 18px;
+    color: #ebebeb;
+    margin-top: 20px;
+    flex-direction: row;
+}
+
+.brief_detail > div {
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.brief_detail > div > div > a {
+    font-size: 16px;
+}
+
+.brief_detail > .detail {
+    color: #cbcbcb;
+}
+
+#subject_image {
+    display: flex;
+    max-height: 35vh;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+}
+
+#subject_image > img {
+    max-height: 80%;
+    transition: transform .2s;
+}
+
+.news, .testimonials {
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.news > div, .testimonials > div {
+    display: flex;
+    flex-direction: row;
+}
+
+#news_div {
+    padding: 20px;
+    max-height: 30vh;
+    color: #e0e0e0;
+    overflow-y: auto;
+}
+
+.title {
+    width: 100%;
+    color: #efefef;
+    font-size: 28px;
+}
+
+#testimonials_div {
+    max-width: 100%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+.body {
+    max-width: 60%;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+@media screen and (max-width: 1500px) {
+    .body {
+        max-width: 70vw;
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+}
+
+@media screen and (max-width: 1350px) {
+    .body {
+        max-width: 85%;
+        padding-left: 7.5%;
+        padding-right: 7.5%;
+    }
+}

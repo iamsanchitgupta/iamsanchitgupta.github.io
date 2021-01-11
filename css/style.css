@@ -1,0 +1,344 @@
+body {
+    margin: 0;
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    font-family: 'Raleway';
+    flex-direction: column;
+}
+
+#background {
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -999;
+    position: fixed;
+}
+
+button:focus {
+    outline: none;
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+    transition: all 0.2s;
+}
+
+a:hover {
+    color: #74c6ad;
+    text-decoration: underline;
+}
+
+.navbar {
+    width: 80%;
+    height: 70px;
+    z-index: 999;
+    opacity: 0.85;
+    display: flex;
+    padding: 0 10%;
+    position: fixed;
+    font-size: 16px;
+    flex-direction: row;
+    font-family: metropolis;
+    background-color: #333333;
+    justify-content: space-between;
+    transition: all 0.5s cubic-bezier(0.4, 0, 1, 1)
+}
+
+.navbar a, .navbar > .name {
+    color: #efefef;
+}
+
+.navbar-scrolled {
+    opacity: 0.95;
+    background-color: #262626;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.06), 0 6px 20px 0 rgba(0, 0, 0, 0.05);
+}
+
+.navbar-scrolled a, .navbar-scrolled > .name {
+    color: #efefef;
+}
+
+.navbar > .name, .navbar > .name > svg > g {
+    font-size: 26px;
+    fill: #74c6ad;
+    color: #74c6ad;
+    cursor: default;
+    transition: 0.5s all;
+}
+
+.navbar > .name > svg {
+    margin-right: 10px;
+}
+
+.navbar > .name:hover, .navbar > .name:hover > svg > g {
+    color: #3e987d;
+    fill: #3e987d;
+    cursor: pointer;
+}
+
+.navbar > div {
+    display: flex;
+    padding: 0 15px;
+    align-items: center;
+    flex-direction: row;
+}
+
+.navbar > div > div {
+    height: 100%;
+    display: flex;
+    padding-left: 25px;
+    align-items: center;
+}
+
+.navbar > div > div:hover {
+    cursor: pointer;
+}
+
+.navbar > div > div:hover > a, .selected > a {
+    color: #74c6ad;
+    text-decoration: none;
+}
+
+.navbar > div > div:hover .hoverable, .selected .hoverable {
+    transform: translateY(-8px);
+}
+
+.navbar > div > div:hover .hoverable:before, .selected .hoverable:before {
+    opacity: 1;
+    transform: translateY(10px);
+}
+
+.hoverable {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    transition-duration: .3s;
+    backface-visibility: hidden;
+    transition-property: transform;
+    box-shadow: 0 0 1px rgba(0,0,0,0);
+}
+
+.hoverable:before {
+    left: 5%;
+    top: 100%;
+    opacity: 0;
+    width: 90%;
+    z-index: -1;
+    content: '';
+    height: 10px;
+    position: absolute;
+    pointer-events: none;
+    transition-duration: 0.3s;
+    transition-property: transform, opacity;
+    background: radial-gradient(ellipse at center, rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0) 80%);
+    background: -webkit-radial-gradient(center, ellipse, rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0) 80%);
+}
+
+.hoverable:hover, .selected > .hoverable {
+    transform: translateY(-8px);
+}
+
+.hoverable:hover:before, .selected > .hoverable:before{
+    opacity: 1;
+    transform: translateY(10px);
+}
+
+.dropdown-content {
+    top: 70px;
+    z-index: 1;
+    display: none;
+    min-width: 160px;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    float: none;
+    display: block;
+    text-align: left;
+    padding: 12px 16px;
+    text-decoration: none;
+    color: black !important;
+}
+
+.dropdown-content a:hover {
+    background-color: #74c6ad;
+}
+
+.show {
+    display: block;
+}
+
+.body {
+    width: 100%;
+    display: flex;
+    /* margin-top: 70px; */
+    padding-top: 110px;
+    padding-bottom: 20px;
+    align-items: center;
+    flex-direction: column;
+    background-color: #000000bd;
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    padding: 20px 0;
+    margin-top: auto;
+    color: #ffffff;
+    align-items: center;
+    flex-direction: column;
+    /* background-color: #252525cc; */
+    background-color: #000000cc;
+}
+
+footer > .upper_section {
+    width: 75%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+footer > .upper_section > div {
+    width: 25%;
+    display: flex;
+    padding: 20px;
+    max-width: 25%;
+    flex-direction: column;
+}
+
+footer > .upper_section > .quote {
+    text-align: justify;
+}
+
+footer > .upper_section > .links > div {
+    display: flex;
+    flex-direction: row;    
+}
+
+footer > .upper_section > .links > .content {
+    flex-direction: column;
+}
+
+footer > .upper_section > .links > .content > a {
+    color: #ffffff;
+    margin-bottom: 5px;
+}
+
+footer > .social_media {
+    display: flex;
+    margin-top: 15px;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.social_media button {
+    width: 50px;
+    height: 50px;
+    border: none;
+    margin: 0 10px;
+    border-radius: 60px;
+    transition: all 0.75s;
+    background-color: #a4bada;
+    box-shadow: 0px 0px 20px #69696991;
+}
+
+.social_media button > * {
+    font-size: 22px;
+    color: #ffffff;
+    transition: all 0.75s;
+}
+
+.social_media > button:hover * {
+    transform: rotate(360deg);
+}
+
+.linkedin:hover {
+    background-color: #007bb7;
+}
+
+.twitter:hover {
+    background-color: #43a2f3;
+}
+
+.medium:hover {
+    background-color: #61ad6c;
+}
+
+.quora:hover {
+    background-color: #AA2200;
+}
+
+.facebook:hover {
+    background-color: #3B5998;
+}
+
+.instagram:hover {
+    background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+}
+
+.github:hover {
+    background-color: #000000;
+}
+
+.email:hover {
+    background-color: #d74b39;
+}
+
+.scholar:hover {
+    background-color: #316ac5;
+}
+
+.skype:hover {
+    background-color: #50afef;
+}
+
+.whatsapp:hover {
+    background-color: #38e057;
+}
+
+.messenger:hover {
+    background-color: #1b82fa;
+}
+
+.lichess:hover {
+    background-color: #363533;
+}
+
+.chess-com:hover {
+    background-color: #779556;
+}
+
+.share:hover {
+    background-color: #42a4fe;
+}
+
+.copy:hover {
+    background-color: #65abec;
+}
+
+footer > .separator {
+    width: 80%;
+    height: 1px;
+    background-color: #ffffff;
+}
+
+footer > .credits {
+    width: 80%;
+    display: flex;
+    color: #b8b8b8;
+    margin-top: 30px;
+    text-align: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+@font-face {
+    font-family: metropolis;
+    src: url(/assets/fonts/metropolis/Metropolis-Regular.otf);
+}
