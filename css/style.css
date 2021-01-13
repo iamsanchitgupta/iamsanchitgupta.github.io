@@ -237,10 +237,13 @@ footer > .social_media {
     justify-content: center;
 }
 
-.social_media button {
+.social_media a {
     width: 50px;
     height: 50px;
     border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin: 0 10px;
     border-radius: 60px;
     transition: all 0.75s;
@@ -248,13 +251,17 @@ footer > .social_media {
     box-shadow: 0px 0px 20px #69696991;
 }
 
-.social_media button > * {
+.social_media a > * {
     font-size: 22px;
     color: #ffffff;
     transition: all 0.75s;
 }
 
-.social_media > button:hover * {
+.social_media > a:hover {
+    text-decoration: none;
+}
+
+.social_media > a:hover * {
     transform: rotate(360deg);
 }
 

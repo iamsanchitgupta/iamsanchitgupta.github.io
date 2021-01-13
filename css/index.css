@@ -91,6 +91,7 @@ a {
 }
 
 .body {
+    text-align: justify;
     max-width: 60%;
     padding-left: 20%;
     padding-right: 20%;
