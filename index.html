@@ -33,17 +33,19 @@
                 </svg>
                 <b>Sanchit Gupta</b>
             </div>
-            <div>
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+            <div class="tabs">
                 <div class="selected" onclick="window.location='/'"><a class="hoverable" href="/"><i class="fas fa-home"></i> Home</a></div>
-                <!-- <div onclick="window.location='/resume.html'"><a class="hoverable" href="/resume.html"><i class="fas fa-user-graduate"></i> Resume</a></div> -->
+                <div onclick="window.location='/resume.html'"><a class="hoverable" href="/resume.html"><i class="fas fa-user-graduate"></i> Resume</a></div>
                 <div onclick="window.location='/testimonials.html'"><a class="hoverable" href="/testimonials.html"><i class="fas fa-comments"></i> Testimonials</a></div>
                 <!-- <div onclick="window.location='/'"><a class="hoverable" href="/contact"><i class="fas fa-envelope"></i> Contact Me</a></div> -->
                 <!-- <div onclick="window.location='/'"><a class="hoverable" href="/chess"><i class="fas fa-chess"></i> Chess</a></div> -->
-                <div onmouseover="showNavbarDropDown()" onmouseout="hideNavbarDropDown()">
-                    <a class="hoverable" href="#">Coming Soon <i class="fa fa-caret-down"></i></a>
+                <div class="dropdown-tab">
+                    <a class="hoverable">Coming Soon <i class="fa fa-caret-down"></i></a>
                     <div class="dropdown-content" id="myDropdown">
                         <a href="/under_construction.html"><i class="fas fa-chess"></i> Chess</a>
-                        <a href="/under_construction.html"><i class="fas fa-user-graduate"></i> Resume</a>
                         <a href="/under_construction.html"><i class="fab fa-blogger-b"></i> Blog</a>
                         <a href="/under_construction.html"><i class="fas fa-laugh-squint"></i></i> Puns</a>
                         <a href="/under_construction.html"><i class="fas fa-envelope"></i> Contact Me</a>
@@ -80,14 +82,14 @@
                         team at Google Bangalore. I have also interned with Microsoft Research under
                         <a href="https://www.microsoft.com/en-us/research/people/padmanab/"> Dr. Venkat Padmanbhan </a> on the HAMS Project. As
                         a part of my undergrad, I worked with the Image Analysis and Biometrics lab under <a href="http://home.iitj.ac.in/~richa/">
-                        Dr. Richa Singh </a> and <a href="http://home.iitj.ac.in/~mvatsa/"> Dr. Mayank Vatsa </a>. My ultimate goal is to build a
+                            Dr. Richa Singh </a> and <a href="http://home.iitj.ac.in/~mvatsa/"> Dr. Mayank Vatsa </a>. My ultimate goal is to build a
                         sustainable social enterprise to bridge the education gap in STEM, with a strong focus on underrepresented groups.
                     </p>
                     <p>
                         I have also been mentoring 400+ girls across 35+ colleges all over India. In my free time you can catch me playing
                         Bullet Chess or Puzzle Rush. I formed Google Bangalore's Chess club under the guidance of Anand Rangarajan and 'The 65th
                         Square', IIIT Delhi's Chess club under the guidance of <a href="https://sites.google.com/corp/view/somitra"> Dr. Somitra
-                        Sanadhya </a>. Other hobbies include: Writing, Stand-up Comedy, Cricket, Table Tennis, Movies and TV series.
+                            Sanadhya </a>. Other hobbies include: Writing, Stand-up Comedy, Cricket, Table Tennis, Movies and TV series.
                     </p>
                 </div>
             </div>
@@ -97,140 +99,142 @@
                 </div>
                 <div id="news_div">
                     <ul>
-                        <li> Dec. 2020 — My work with Microsoft Research on their <a = href="https://www.microsoft.com/en-us/research/project/hams/"> HAMS </a>
-                            project got issued as a <a href="https://patents.google.com/patent/US10867195B2/en"> US Patent </a>. It was filed in March 2018. </li>
+                        <li> Dec. 2020 — My work with Microsoft Research on their <a=href="https: //www.microsoft.com/en-us/research/project/hams/"> HAMS </a>
+                                project got issued as a <a href="https://patents.google.com/patent/US10867195B2/en"> US Patent </a>. It was filed in March 2018. </li>
                         <li> Dec. 2020 — Awarded Peer Bonus by Google for organising month-long Chessathon for Google BLR in collaboration with Chess.com! </li>
                         <li> Aug. 2020 — Awarded Kudos by Google for mentoring WTM India Scholars for the Women Techmakers Scholarship Program 2020. </li>
-                        <li> Aug. 2020 — My work with Microsoft Research on the <a = href="https://www.microsoft.com/en-us/research/project/hams/"> HAMS
-                            </a> project got accepted in  <a href="https://dl.acm.org/doi/abs/10.1145/3411819"> UBICOMP 2020</a>. </li>
+                        <li> Aug. 2020 — My work with Microsoft Research on the <a=href="https: //www.microsoft.com/en-us/research/project/hams/"> HAMS
+                                </a> project got accepted in <a href="https://dl.acm.org/doi/abs/10.1145/3411819"> UBICOMP 2020</a>. </li>
                         <li> Dec. 2019 — Awarded Spot Bonus for winning Google's referral competition spreading over the first 3 quarters of 2019! </li>
                         <li> July 2019 — Awarded Kudos by Google for being a part of the Review Committee for Women Techmakers Scholarship Program 2019. </li>
-                        <li> May  2019 — Presented my paper done as a part of my undergraduate thesis with <a href="http://www.iab-rubric.org/"> IAB lab </a>
+                        <li> May 2019 — Presented my paper done as a part of my undergraduate thesis with <a href="http://www.iab-rubric.org/"> IAB lab </a>
                             in the <a href="https://ieeexplore.ieee.org/abstract/document/8756510"> FG Conference </a> in Lille, France. </li>
                         <li> Apr. 2019 — Awarded Peer Bonus by Google for giving talks and my DEI (Diversity, Edquity, and Inclusion) Efforts. </li>
                         <li> Jan. 2019 — My work with Image Analysis and Biometrics (IAB) lab done as a part of my undergrad thesis accepted at
-                            <a href="https://ieeexplore.ieee.org/abstract/document/8756510"> FG 2019</a>! </li>
+                            <a href="https://ieeexplore.ieee.org/abstract/document/8756510"> FG 2019</a>!
+                        </li>
                         <li> July 2018 — Joined Google Bangalore as a Software Engineer 2 (Machine Learning) in Apps Search and Intelligence team. </li>
                         <li> Mar. 2018 — Left Microsoft Research and gave ~55 interview rounds over the next 3 months. </li>
                         <li> Aug. 2017 — Joined Microsoft Research as a Research intern, under <a href="https://www.microsoft.com/en-us/research/people/padmanab/">
-                            Dr. Venkat Padmanbhan </a> for the <a = href="https://www.microsoft.com/en-us/research/project/hams/"> HAMS </a> Project. </li>
+                                Dr. Venkat Padmanbhan </a> for the <a=href="https: //www.microsoft.com/en-us/research/project/hams/"> HAMS </a> Project. </li>
                         <li> June 2016 — My work with Image Analysis and Biometrics (IAB) lab done as a part of my undergrad thesis accepted at
-                            <a href="https://ieeexplore.ieee.org/abstract/document/7791166">BTAS 2016</a>. </li>
+                            <a href="https://ieeexplore.ieee.org/abstract/document/7791166">BTAS 2016</a>.
+                        </li>
                         <li> Dec. 2015 — Joined Image Analysis and Biometrics (IAB) lab for my undergrad thesis with <a href="http://home.iitj.ac.in/~richa/">
-                            Dr. Richa Singh </a> and <a href="http://home.iitj.ac.in/~mvatsa/">Dr. Mayank Vatsa</a>. </li>
-                        
+                                Dr. Richa Singh </a> and <a href="http://home.iitj.ac.in/~mvatsa/">Dr. Mayank Vatsa</a>. </li>
+
                     </ul>
                 </div>
             </div>
             <!-- <div class="testimonials">
-                <div class="title">
-                    <b>Testimonials</b>
-                </div>
-                <div id="testimonials_div">
-                    <div class="testimonial">
-                        <div class="upper_half">
-                            <div class="person_img">
-                                <img src="assets/sanchit.jpg">
-                            </div>
-                            <div class="detail">
-                                <div class="name">
-                                    <b>Sanchit Gupta</b>
-                                </div>
-                                <div class="position">
-                                    <b>Software Engineer</b>
-                                </div>
-                                <div>
-                                    <img src="assets/linkedin.png">
-                                </div>
-                            </div>
+                        <div class="title">
+                            <b>Testimonials</b>
                         </div>
-                        <div class="tags">
-                            <button>Google</button>
-                            <button>Microsoft</button>
-                        </div>
-                        <div class="info">
-                            <b>24 Dec, 2020:</b> Hi Clement, just thought I'd share some great news - thanks almost entirely
-                            to
-                            AlgoExpert & SystemsExpert, I got an offer from Google, among others. I've accepted the offer!
-                            All this,
-                            In the midst of a global pandemic, whilst in Australia...and I'm self taught (or rather taught
-                            by people
-                            like you). This has been a crazy career change for me (and I'm 39 and a recovering lawyer!). So
-                            wanted
-                            to say a huge "thank you" to you, Antoine and the team. Your work makes this possible for
-                            everyone.
-                        </div>
-                    </div>
-                    <div class="testimonial">
-                        <div class="upper_half">
-                            <div class="person_img">
-                                <img src="assets/sanchit.jpg">
-                            </div>
-                            <div class="detail">
-                                <div class="name">
-                                    <b>Sanchit Gupta2</b>
+                        <div id="testimonials_div">
+                            <div class="testimonial">
+                                <div class="upper_half">
+                                    <div class="person_img">
+                                        <img src="assets/sanchit.jpg">
+                                    </div>
+                                    <div class="detail">
+                                        <div class="name">
+                                            <b>Sanchit Gupta</b>
+                                        </div>
+                                        <div class="position">
+                                            <b>Software Engineer</b>
+                                        </div>
+                                        <div>
+                                            <img src="assets/linkedin.png">
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="position">
-                                    <b>Software Engineer</b>
+                                <div class="tags">
+                                    <button>Google</button>
+                                    <button>Microsoft</button>
                                 </div>
-                                <div>
-                                    <img src="assets/linkedin.png">
+                                <div class="info">
+                                    <b>24 Dec, 2020:</b> Hi Clement, just thought I'd share some great news - thanks almost entirely
+                                    to
+                                    AlgoExpert & SystemsExpert, I got an offer from Google, among others. I've accepted the offer!
+                                    All this,
+                                    In the midst of a global pandemic, whilst in Australia...and I'm self taught (or rather taught
+                                    by people
+                                    like you). This has been a crazy career change for me (and I'm 39 and a recovering lawyer!). So
+                                    wanted
+                                    to say a huge "thank you" to you, Antoine and the team. Your work makes this possible for
+                                    everyone.
                                 </div>
                             </div>
-                        </div>
-                        <div class="tags">
-                            <button>Google</button>
-                            <button>Microsoft</button>
-                        </div>
-                        <div class="info">
-                            <b>24 Dec, 2020:</b> Hi Clement, just thought I'd share some great news - thanks almost entirely
-                            to
-                            AlgoExpert & SystemsExpert, I got an offer from Google, among others. I've accepted the offer!
-                            All this,
-                            In the midst of a global pandemic, whilst in Australia...and I'm self taught (or rather taught
-                            by people
-                            like you). This has been a crazy career change for me (and I'm 39 and a recovering lawyer!). So
-                            wanted
-                            to say a huge "thank you" to you, Antoine and the team. Your work makes this possible for
-                            everyone.
-                        </div>
-                    </div>
-                    <div class="testimonial">
-                        <div class="upper_half">
-                            <div class="person_img">
-                                <img src="assets/sanchit.jpg">
+                            <div class="testimonial">
+                                <div class="upper_half">
+                                    <div class="person_img">
+                                        <img src="assets/sanchit.jpg">
+                                    </div>
+                                    <div class="detail">
+                                        <div class="name">
+                                            <b>Sanchit Gupta2</b>
+                                        </div>
+                                        <div class="position">
+                                            <b>Software Engineer</b>
+                                        </div>
+                                        <div>
+                                            <img src="assets/linkedin.png">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tags">
+                                    <button>Google</button>
+                                    <button>Microsoft</button>
+                                </div>
+                                <div class="info">
+                                    <b>24 Dec, 2020:</b> Hi Clement, just thought I'd share some great news - thanks almost entirely
+                                    to
+                                    AlgoExpert & SystemsExpert, I got an offer from Google, among others. I've accepted the offer!
+                                    All this,
+                                    In the midst of a global pandemic, whilst in Australia...and I'm self taught (or rather taught
+                                    by people
+                                    like you). This has been a crazy career change for me (and I'm 39 and a recovering lawyer!). So
+                                    wanted
+                                    to say a huge "thank you" to you, Antoine and the team. Your work makes this possible for
+                                    everyone.
+                                </div>
                             </div>
-                            <div class="detail">
-                                <div class="name">
-                                    <b>Sanchit Gupta3</b>
+                            <div class="testimonial">
+                                <div class="upper_half">
+                                    <div class="person_img">
+                                        <img src="assets/sanchit.jpg">
+                                    </div>
+                                    <div class="detail">
+                                        <div class="name">
+                                            <b>Sanchit Gupta3</b>
+                                        </div>
+                                        <div class="position">
+                                            <b>Software Engineer</b>
+                                        </div>
+                                        <div>
+                                            <img src="assets/linkedin.png">
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="position">
-                                    <b>Software Engineer</b>
+                                <div class="tags">
+                                    <button>Google</button>
+                                    <button>Microsoft</button>
                                 </div>
-                                <div>
-                                    <img src="assets/linkedin.png">
+                                <div class="info">
+                                    <b>24 Dec, 2020:</b> Hi Clement, just thought I'd share some great news - thanks almost entirely
+                                    to
+                                    AlgoExpert & SystemsExpert, I got an offer from Google, among others. I've accepted the offer!
+                                    All this,
+                                    In the midst of a global pandemic, whilst in Australia...and I'm self taught (or rather taught
+                                    by people
+                                    like you). This has been a crazy career change for me (and I'm 39 and a recovering lawyer!). So
+                                    wanted
+                                    to say a huge "thank you" to you, Antoine and the team. Your work makes this possible for
+                                    everyone.
                                 </div>
                             </div>
                         </div>
-                        <div class="tags">
-                            <button>Google</button>
-                            <button>Microsoft</button>
-                        </div>
-                        <div class="info">
-                            <b>24 Dec, 2020:</b> Hi Clement, just thought I'd share some great news - thanks almost entirely
-                            to
-                            AlgoExpert & SystemsExpert, I got an offer from Google, among others. I've accepted the offer!
-                            All this,
-                            In the midst of a global pandemic, whilst in Australia...and I'm self taught (or rather taught
-                            by people
-                            like you). This has been a crazy career change for me (and I'm 39 and a recovering lawyer!). So
-                            wanted
-                            to say a huge "thank you" to you, Antoine and the team. Your work makes this possible for
-                            everyone.
-                        </div>
-                    </div>
-                </div>
-            </div> -->
+                    </div> -->
         </div>
         <footer>
             <!-- <div class="upper_section">

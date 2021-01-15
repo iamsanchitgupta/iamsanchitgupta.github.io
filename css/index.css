@@ -8,7 +8,11 @@
 }
 
 a {
-    color: #ececec;
+    color: #74c6ad;
+}
+
+a:hover {
+    color: #3e987d;
 }
 
 #name {
@@ -110,5 +114,23 @@ a {
         max-width: 85%;
         padding-left: 7.5%;
         padding-right: 7.5%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .body {
+        flex-direction: column;
+    }
+
+    .brief_detail {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .body {
+        max-width: 95%;
+        padding-left: 2.5%;
+        padding-right: 2.5%;
     }
 }

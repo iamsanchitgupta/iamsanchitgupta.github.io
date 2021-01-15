@@ -1,16 +1,17 @@
 .body {
-    width: 80%;
-    padding-left: 10%;
-    padding-right: 10%;
+    width: 65%;
+    padding-left: 17.5%;
+    padding-right: 17.5%;
+    padding-bottom: 80px;
     color: #cbcbcb;
 }
 
 a {
-    color: #cbcbcb;
+    color: #74c6ad;
 }
 
 a:hover {
-    color: #bbbbbb;
+    color: #3e987d;
 }
 
 .section {
@@ -20,7 +21,7 @@ a:hover {
 }
 
 .topic {
-    padding: 20px 0;
+    padding: 60px 0 0px 0;
     font-size: 32px;
     color: #ffffff;
     font-weight: bold;
@@ -28,6 +29,7 @@ a:hover {
 
 .dated-event {
     display: flex;
+    padding-top: 10px;
     font-weight: bold;
     flex-direction: row;
 }
@@ -39,4 +41,13 @@ a:hover {
 .flex-column {
     display: flex;
     flex-direction: column;
+}
+
+@media screen and (max-width: 1100px) {
+    .body {
+        width: 95%;
+        font-size: 14px;
+        padding-left: 2.5%;
+        padding-right: 2.5%;
+    }
 }

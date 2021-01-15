@@ -85,7 +85,12 @@ a:hover {
     flex-direction: row;
 }
 
-.navbar > div > div {
+.navbar > .menu-btn {
+    display: none;
+    color: inherit;
+}
+
+.navbar > .tabs > div {
     height: 100%;
     display: flex;
     padding-left: 25px;
@@ -162,15 +167,16 @@ a:hover {
     text-align: left;
     padding: 12px 16px;
     text-decoration: none;
-    color: black !important;
+    color: black;
 }
 
 .dropdown-content a:hover {
+    color: black;
     background-color: #74c6ad;
 }
 
 .show {
-    display: block;
+    display: block !important;
 }
 
 .body {
@@ -231,6 +237,7 @@ footer > .upper_section > .links > .content > a {
 
 footer > .social_media {
     display: flex;
+    flex-wrap: wrap;
     margin-top: 15px;
     align-items: center;
     flex-direction: row;
@@ -348,4 +355,76 @@ footer > .credits {
 @font-face {
     font-family: metropolis;
     src: url(/assets/fonts/metropolis/Metropolis-Regular.otf);
+}
+
+@media screen and (max-width: 1000px) {
+    .navbar {
+        width: 95%;
+        padding: 0 2.5%;
+    }
+
+    .navbar > .tabs {
+        left: 0;
+        top: 70px;
+        width: 100%;
+        display: none;
+        position: fixed;
+        opacity: inherit;
+        flex-direction: column;
+        background-color: inherit;
+    }
+
+    .navbar > .tabs > div {
+        width: 100%;
+        height: 70px;
+    }
+
+    .navbar > .tabs > .dropdown-tab {
+        height: auto;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navbar > .menu-btn {
+        display: flex;
+        color: #efefef;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .hoverable {
+        gap: 10px;
+        height: 70px;
+        display: flex;
+        align-items: center;
+    }
+
+    .dropdown-content {
+        position: inherit;
+        background-color: transparent;
+    }
+
+    .dropdown-content a {
+        gap: 10px;
+        height: 70px;
+        display: flex;
+        padding-left: 0;
+        padding-right: 0;
+        color: #efefef;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    #subject_image > img {
+        max-height: unset;
+        max-width: 80%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    footer > .credits {
+        width: 95%;
+        padding: 0 2.5%;
+    }
 }

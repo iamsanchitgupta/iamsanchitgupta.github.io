@@ -1,5 +1,5 @@
-<!DOCTYPE html>         
-<html lang="en">  
+<!DOCTYPE html>
+<html lang="en">
 
     <head>
         <meta charset="UTF-8">
@@ -11,8 +11,8 @@
         <link rel="stylesheet" href="css/testimonial.css">
         <link rel="shortcut icon" type="image/png" href="assets/favicon.png">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap">
-  
-        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script> 
+
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 
         <script src="https://unpkg.com/@popperjs/core@2"></script>
         <script src="https://unpkg.com/tippy.js@6"></script>
@@ -33,17 +33,19 @@
                 </svg>
                 <b>Sanchit Gupta</b>
             </div>
-            <div>
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+            <div class="tabs">
                 <div onclick="window.location='/'"><a class="hoverable" href="/"><i class="fas fa-home"></i> Home</a></div>
-                <!-- <div onclick="window.location='/resume.html'"><a class="hoverable" href="/resume.html"><i class="fas fa-user-graduate"></i> Resume</a></div> -->
+                <div onclick="window.location='/resume.html'"><a class="hoverable" href="/resume.html"><i class="fas fa-user-graduate"></i> Resume</a></div>
                 <div class="selected" onclick="window.location='/testimonials.html'"><a class="hoverable" href="/testimonials.html"><i class="fas fa-comments"></i> Testimonials</a></div>
                 <!-- <div onclick="window.location='/'"><a class="hoverable" href="/contact"><i class="fas fa-envelope"></i> Contact Me</a></div> -->
                 <!-- <div onclick="window.location='/'"><a class="hoverable" href="/chess"><i class="fas fa-chess"></i> Chess</a></div> -->
-                <div onmouseover="showNavbarDropDown()" onmouseout="hideNavbarDropDown()">
-                    <a class="hoverable" href="#">Coming Soon <i class="fa fa-caret-down"></i></a>
+                <div class="dropdown-tab">
+                    <a class="hoverable">Coming Soon <i class="fa fa-caret-down"></i></a>
                     <div class="dropdown-content" id="myDropdown">
                         <a href="/under_construction.html"><i class="fas fa-chess"></i> Chess</a>
-                        <a href="/under_construction.html"><i class="fas fa-user-graduate"></i> Resume</a>
                         <a href="/under_construction.html"><i class="fab fa-blogger-b"></i> Blog</a>
                         <a href="/under_construction.html"><i class="fas fa-laugh-squint"></i></i> Puns</a>
                         <a href="/under_construction.html"><i class="fas fa-envelope"></i> Contact Me</a>
@@ -53,10 +55,11 @@
         </div>
         <div class="body">
             <div class="bold-title">
+                [Under Construction] <br>
                 A few heartfelt testimonials from a some of the people I have mentored!
             </div>
             <div class="testimonials">
-                 <div class="testimonial">
+                <div class="testimonial">
                     <div class="upper_half">
                         <div class="person_img">
                             <img src="assets/sanchit.jpg">
@@ -82,15 +85,16 @@
                     <div class="info">
 
                         <b>24 Dec, 2020:</b>
-                       Sanchit is a friend and mentor to me. He shared prep tips with me during my intern interviews and answered any questions I had regarding the interview process. Once I got my intern, he motivated me to practice for conversion interviews a month before the intern started. I used to share update on my progress everyday and he celebrated every achievement we made along the way; be it me performing well in a coding contest or me reaching a milestone in leetcode. Besides, we sometimes joke around/ play scribble and among us together. 
+                        Sanchit is a friend and mentor to me. He shared prep tips with me during my intern interviews and answered any questions I had regarding the interview process. Once I got my intern, he motivated me to practice for conversion interviews a month before the intern started. I used to share update on my progress everyday and he celebrated every achievement we made along the way; be it me performing well in a coding contest or me reaching a milestone in leetcode. Besides, we sometimes joke around/ play scribble and among us together.
                     </div>
-                </div> <div class="testimonial">
+                </div>
+                <div class="testimonial">
                     <div class="upper_half">
                         <div class="person_img">
                             <img src="assets/sanchit.jpg">
                         </div>
                         <div class="detail">
-                            <div class="name"> 
+                            <div class="name">
                                 <b> Karishma Singh Chauhan</b>
                             </div>
                             <div class="position">
@@ -110,14 +114,15 @@
                     <div class="info">
 
                         <b>24 Dec, 2020:</b>
-                       "I was introduced to Sanchit by a very good friend of mine. It was at a time when I was working hard on improving my technical skills. I somewhere knew that not being from those elite colleges might be an obstacle to the opportunities that come my way.
+                        "I was introduced to Sanchit by a very good friend of mine. It was at a time when I was working hard on improving my technical skills. I somewhere knew that not being from those elite colleges might be an obstacle to the opportunities that come my way.
 
-Sanchit helped me in preparing the right way, making sure that I'm on the correct track. He helped me push the limits and realize my potential. It was with his help that I was able to get the opportunities I deserved based on my skills.
+                        Sanchit helped me in preparing the right way, making sure that I'm on the correct track. He helped me push the limits and realize my potential. It was with his help that I was able to get the opportunities I deserved based on my skills.
 
-I'm just one example. Sanchit guides and mentors so many other students this way, besides doing his own work. He also aims to bridge the gender gap in the technical field by helping more women in technology to get into this industry. I wish him all the luck and success in this endeavour."
+                        I'm just one example. Sanchit guides and mentors so many other students this way, besides doing his own work. He also aims to bridge the gender gap in the technical field by helping more women in technology to get into this industry. I wish him all the luck and success in this endeavour."
 
                     </div>
-                </div> <div class="testimonial">
+                </div>
+                <div class="testimonial">
                     <div class="upper_half">
                         <div class="person_img">
                             <img src="assets/sanchit.jpg">
@@ -147,7 +152,7 @@ I'm just one example. Sanchit guides and mentors so many other students this way
 
                     </div>
                 </div>
-                 <div class="testimonial">
+                <div class="testimonial">
                     <div class="upper_half">
                         <div class="person_img">
                             <img src="assets/sanchit.jpg">
@@ -173,7 +178,7 @@ I'm just one example. Sanchit guides and mentors so many other students this way
                     <div class="info">
 
                         <b>24 Dec, 2020:</b>
-                        Sanchit has been doing a great job mentoring and helping us to achieve our dreams. He has been guiding us on how to prepare for big companies, how to ace interviews and also how not to be disappointed if we get rejection. His story is a great inspiration and I personally have got huge motivations when I got rejection in some companies. Eventually I could bag some good offers and I can say Sanchit has an important contribution in that. He is not just a wonderful mentor but also a great friend. He encourages us to play games, shares memes and other fun stuff with us time to time so that we do not loose our sanity while preparing XD. 
+                        Sanchit has been doing a great job mentoring and helping us to achieve our dreams. He has been guiding us on how to prepare for big companies, how to ace interviews and also how not to be disappointed if we get rejection. His story is a great inspiration and I personally have got huge motivations when I got rejection in some companies. Eventually I could bag some good offers and I can say Sanchit has an important contribution in that. He is not just a wonderful mentor but also a great friend. He encourages us to play games, shares memes and other fun stuff with us time to time so that we do not loose our sanity while preparing XD.
 
                     </div>
                 </div>
@@ -199,15 +204,16 @@ I'm just one example. Sanchit guides and mentors so many other students this way
                         <button>Microsoft</button>
                     </div>
                     <div class="info">
-                        <b>24 Dec, 2020:</b> 
+                        <b>24 Dec, 2020:</b>
                         Sanchit is a great mentor. He is a person who wants to bring change in the society in ways that
                         might help people living a better life. He has always been supportive and kind. He keeps pushing
-                        people to give there best, keeps posting important links. He is a friendly person whom you can 
+                        people to give there best, keeps posting important links. He is a friendly person whom you can
                         talk to if feeling low, his good words and personal experiences will always inspire you and keep
-                        moving on in life. We have played games like among us together too. Sanchit is an amazing person 
-                        who is always ready to help. 
+                        moving on in life. We have played games like among us together too. Sanchit is an amazing person
+                        who is always ready to help.
                     </div>
-                </div> <div class="testimonial">
+                </div>
+                <div class="testimonial">
                     <div class="upper_half">
                         <div class="person_img">
                             <img src="assets/sanchit.jpg">
@@ -237,7 +243,7 @@ I'm just one example. Sanchit guides and mentors so many other students this way
 
                     </div>
                 </div>
-                
+
                 <div class="testimonial">
                     <div class="upper_half">
                         <div class="person_img">
@@ -266,13 +272,13 @@ I'm just one example. Sanchit guides and mentors so many other students this way
                         <b>24 Dec, 2020:</b>
                         I had the opportunity and pleasure to have Sanchit as my mentor. He is the one who encouraged me
                         to participate in codeforces contests and solving leetcode questions. The enthusiasm to give him
-                        weekly updates made me better in problem solving.  I appreciate he focuses more on participation
+                        weekly updates made me better in problem solving. I appreciate he focuses more on participation
                         and my performance rather than rating in contests. I feel privileged to get in touch with him who
                         guiding me so well and showing me right path to succeed.
 
                     </div>
                 </div>
-                
+
                 <div class="testimonial">
                     <div class="upper_half">
                         <div class="person_img">
@@ -299,13 +305,13 @@ I'm just one example. Sanchit guides and mentors so many other students this way
                     <div class="info">
 
                         <b>24 Dec, 2020:</b>
-                        "Sanchit provides guidance in his own unique way. He tries to resolve as many problem as one can have regarding the guidance he provide. He makes sure that the things are not monotonous, to make sure of that he keeps sharing memes, any kind of post which could help. 
-He takes updates every week which keep us consistent, he lets us know if there is any kind of improvement we can make. He is very particular when it comes to formate in which we have to give weekly updates, which too helps us.
-He is a great mentor and he makes sure that people are comfortable enough to share their problems and clear any kind of doubt ."
+                        "Sanchit provides guidance in his own unique way. He tries to resolve as many problem as one can have regarding the guidance he provide. He makes sure that the things are not monotonous, to make sure of that he keeps sharing memes, any kind of post which could help.
+                        He takes updates every week which keep us consistent, he lets us know if there is any kind of improvement we can make. He is very particular when it comes to formate in which we have to give weekly updates, which too helps us.
+                        He is a great mentor and he makes sure that people are comfortable enough to share their problems and clear any kind of doubt ."
 
                     </div>
                 </div>
-                
+
                 <div class="testimonial">
                     <div class="upper_half">
                         <div class="person_img">
@@ -329,7 +335,7 @@ He is a great mentor and he makes sure that people are comfortable enough to sha
                     </div>
                     <div class="info">
                         <b>24 Dec, 2020:</b>"""Hello, everyone! I'm Nishit Attrey, an upcoming intern at Google. It was indeed a dream come true for me to get an internship offer from Google, which was all possible due to Sanchit's excellent mentorship and guidance. He has always been very supportive throughout the process and always instilled confidence in me that I can crack this internship. It was just not his referral that made a difference for me but it was his support from the point of application until the interviews that really guided my preparation in the right direction and ultimately helped me to secure this internship. It was indeed a great experience for me to have Sanchit as my mentor who helped me to achieve this dream internship"".
-"
+                        "
                     </div>
                 </div>
                 <div class="testimonial">
@@ -354,7 +360,7 @@ He is a great mentor and he makes sure that people are comfortable enough to sha
                         <button>Microsoft</button>
                     </div>
                     <div class="info">
-                        <b>24 Dec, 2020:</b> Sanchit has worked a lot to mentor students from multiple colleges. In my personal experience, I approached him asking for guidance, and he helped me from that day onwards. He used to check my weekly reports on how my coding is going and as per the needs, he suggested ways to improve. There was a point in my preparation when I was getting rejections that time his motivative words helped me to trust myself and keep trying. Afterwards, I received two offers, one for 6th months internship and another for full time. 
+                        <b>24 Dec, 2020:</b> Sanchit has worked a lot to mentor students from multiple colleges. In my personal experience, I approached him asking for guidance, and he helped me from that day onwards. He used to check my weekly reports on how my coding is going and as per the needs, he suggested ways to improve. There was a point in my preparation when I was getting rejections that time his motivative words helped me to trust myself and keep trying. Afterwards, I received two offers, one for 6th months internship and another for full time.
                     </div>
                 </div>
                 <div class="testimonial">
@@ -436,7 +442,8 @@ He is a great mentor and he makes sure that people are comfortable enough to sha
                         Sanchit is very sweet, polite and down to earth person. He guides me a lot and give me good career advice. He helped me in getting referrals at various companies and always motivates me to study hard. He is always available to clear my doubts. Glad to connect with him.
 
                     </div>
-                </div><div class="testimonial">
+                </div>
+                <div class="testimonial">
                     <div class="upper_half">
                         <div class="person_img">
                             <img src="assets/sanchit.jpg">
@@ -462,10 +469,11 @@ He is a great mentor and he makes sure that people are comfortable enough to sha
                     <div class="info">
 
                         <b>24 Dec, 2020:</b>
-                       Sanchit has been quite helpful in my journey to Amazon. Even though I only had a month to prepare, he helped with all the necessary resources and was always available for a chat. Not just technically sound, he also knows how to encourage people and help them achieve their goals.
+                        Sanchit has been quite helpful in my journey to Amazon. Even though I only had a month to prepare, he helped with all the necessary resources and was always available for a chat. Not just technically sound, he also knows how to encourage people and help them achieve their goals.
 
                     </div>
-                </div><div class="testimonial">
+                </div>
+                <div class="testimonial">
                     <div class="upper_half">
                         <div class="person_img">
                             <img src="assets/sanchit.jpg">
@@ -491,10 +499,11 @@ He is a great mentor and he makes sure that people are comfortable enough to sha
                     <div class="info">
 
                         <b>24 Dec, 2020:</b>
-                       I will always be grateful to you for your support and kindness. It would be impossible to count all the ways that you've helped me in my career building. Thank you so much for your valuable guidance in helping me fetch internships to various esteemed companies. And moreover for making me placement ready, by helping me with coding. I only hope I can return the favour sometime in the future. Thanks for being a good mentor and for guiding me on the right path at all times
+                        I will always be grateful to you for your support and kindness. It would be impossible to count all the ways that you've helped me in my career building. Thank you so much for your valuable guidance in helping me fetch internships to various esteemed companies. And moreover for making me placement ready, by helping me with coding. I only hope I can return the favour sometime in the future. Thanks for being a good mentor and for guiding me on the right path at all times
 
                     </div>
-                </div><div class="testimonial">
+                </div>
+                <div class="testimonial">
                     <div class="upper_half">
                         <div class="person_img">
                             <img src="assets/sanchit.jpg">
@@ -522,12 +531,13 @@ He is a great mentor and he makes sure that people are comfortable enough to sha
                         <b>24 Dec, 2020:</b>
                         I had the opportunity and pleasure to have Sanchit as my mentor. He is the one who encouraged me
                         to participate in codeforces contests and solving leetcode questions. The enthusiasm to give him
-                        weekly updates made me better in problem solving.  I appreciate he focuses more on participation
+                        weekly updates made me better in problem solving. I appreciate he focuses more on participation
                         and my performance rather than rating in contests. I feel privileged to get in touch with him who
                         guiding me so well and showing me right path to succeed.
 
                     </div>
-                </div><div class="testimonial">
+                </div>
+                <div class="testimonial">
                     <div class="upper_half">
                         <div class="person_img">
                             <img src="assets/sanchit.jpg">
@@ -553,10 +563,11 @@ He is a great mentor and he makes sure that people are comfortable enough to sha
                     <div class="info">
 
                         <b>24 Dec, 2020:</b>
-                        when i was in demotivated phase of my life , when i was not knowing how will i be able to cope up with competetive programming my friend told me about Sanchit who is not only my mentor but also an inspiration for me. Being mentored by him ,i learnt the value of discipline as i started practicing daily to give him update which not only helped me in improving my competetive skills but also helped me in gaining confidence within me. All i can say he is truly  a brilliant person and a motivator for me  with a good sense of humor. Not spamming the group is the  basic rule of our group.  All i could say if he would have not been  there in my  life , i would  have said goodbye to competetive programming ,so thankyou so much Sanchit for existing and for always guiding and for always helping us in   reaching towards our desired goals.
+                        when i was in demotivated phase of my life , when i was not knowing how will i be able to cope up with competetive programming my friend told me about Sanchit who is not only my mentor but also an inspiration for me. Being mentored by him ,i learnt the value of discipline as i started practicing daily to give him update which not only helped me in improving my competetive skills but also helped me in gaining confidence within me. All i can say he is truly a brilliant person and a motivator for me with a good sense of humor. Not spamming the group is the basic rule of our group. All i could say if he would have not been there in my life , i would have said goodbye to competetive programming ,so thankyou so much Sanchit for existing and for always guiding and for always helping us in reaching towards our desired goals.
 
                     </div>
-                </div><div class="testimonial">
+                </div>
+                <div class="testimonial">
                     <div class="upper_half">
                         <div class="person_img">
                             <img src="assets/sanchit.jpg">
@@ -583,12 +594,13 @@ He is a great mentor and he makes sure that people are comfortable enough to sha
 
                         <b>24 Dec, 2020:</b>
                         "Greetings to everyone reading this.
-I am Rasam Anand, BTech final year student from NIT Jalandhar. I have been in contact with Sanchit for about last 6-8 months now and I have never seen anyone dedicated so much and putting this much efforts in reducing gender gap in Tech and motivating every person in his contact to give their best. He makes you realise your potential and scolds you in case you are not doing to the level you could for your own good. I am an introvert person and couldn't get frank easily to anyone due to which I have very rarely been able to talk to him but despite of that he has always been a source of inspiration through his constant messages, videos he keeps sharing with all and sometimes his answers to queries by other members of group. Being available anytime and putting so much efforts taking out time from in his own busy life is something I like the most about him.
-He is a really great mentor.
-Hats-off to his sincere efforts. "
+                        I am Rasam Anand, BTech final year student from NIT Jalandhar. I have been in contact with Sanchit for about last 6-8 months now and I have never seen anyone dedicated so much and putting this much efforts in reducing gender gap in Tech and motivating every person in his contact to give their best. He makes you realise your potential and scolds you in case you are not doing to the level you could for your own good. I am an introvert person and couldn't get frank easily to anyone due to which I have very rarely been able to talk to him but despite of that he has always been a source of inspiration through his constant messages, videos he keeps sharing with all and sometimes his answers to queries by other members of group. Being available anytime and putting so much efforts taking out time from in his own busy life is something I like the most about him.
+                        He is a really great mentor.
+                        Hats-off to his sincere efforts. "
 
                     </div>
-                </div><div class="testimonial">
+                </div>
+                <div class="testimonial">
                     <div class="upper_half">
                         <div class="person_img">
                             <img src="assets/sanchit.jpg">
@@ -614,7 +626,7 @@ Hats-off to his sincere efforts. "
                     <div class="info">
 
                         <b>24 Dec, 2020:</b>
-                        Sanchit is astounding! Everything you want is a great mentor and at the same time, a good counselor when you feel like going nowhere. He is one of a kind with an urge to help the students with a strong focus on bringing down the substantial gender gap in tech. He is an incredible guy always motivating amidst the daily hiccups, often sharing memes and playing online games. Sanchit is helping several students throughout India to begin their career in tech. I will definitely be happy to see him becoming a part of more such endeavors for the community. Thank you! 
+                        Sanchit is astounding! Everything you want is a great mentor and at the same time, a good counselor when you feel like going nowhere. He is one of a kind with an urge to help the students with a strong focus on bringing down the substantial gender gap in tech. He is an incredible guy always motivating amidst the daily hiccups, often sharing memes and playing online games. Sanchit is helping several students throughout India to begin their career in tech. I will definitely be happy to see him becoming a part of more such endeavors for the community. Thank you!
 
                     </div>
                 </div>
@@ -644,11 +656,12 @@ Hats-off to his sincere efforts. "
                     <div class="info">
 
                         <b>24 Dec, 2020:</b>
-                       "Before I met Sanchit, I had too many balls in the air. Sanchit not only helped me focus my energy in the right direction, but he was also beside me during the full interview process. He helped me correct my mistakes, polish my resume and motivated me towards my career in tech.
-His views on feminism and the work done by him for women in tech is truly exemplary! He is a mentor, a friend and a warehouse of preposterous jokes! :)"
+                        "Before I met Sanchit, I had too many balls in the air. Sanchit not only helped me focus my energy in the right direction, but he was also beside me during the full interview process. He helped me correct my mistakes, polish my resume and motivated me towards my career in tech.
+                        His views on feminism and the work done by him for women in tech is truly exemplary! He is a mentor, a friend and a warehouse of preposterous jokes! :)"
 
                     </div>
-                </div><div class="testimonial">
+                </div>
+                <div class="testimonial">
                     <div class="upper_half">
                         <div class="person_img">
                             <img src="assets/sanchit.jpg">
@@ -674,11 +687,12 @@ His views on feminism and the work done by him for women in tech is truly exempl
                     <div class="info">
 
                         <b>24 Dec, 2020:</b>
-                       "Sanchit is one of best mentors I ever met. There were times when I thought that there is no chance of me getting selected in this, but he never gave up on me.
-He motivated us time to time. He have shared many videos, messages that are useful for us fir preparation. He sends appreciation posts for students that has helped me a lot. Any student under his guidance can not fail I can say for sure."
+                        "Sanchit is one of best mentors I ever met. There were times when I thought that there is no chance of me getting selected in this, but he never gave up on me.
+                        He motivated us time to time. He have shared many videos, messages that are useful for us fir preparation. He sends appreciation posts for students that has helped me a lot. Any student under his guidance can not fail I can say for sure."
 
                     </div>
-                </div><div class="testimonial">
+                </div>
+                <div class="testimonial">
                     <div class="upper_half">
                         <div class="person_img">
                             <img src="assets/sanchit.jpg">
@@ -704,11 +718,11 @@ He motivated us time to time. He have shared many videos, messages that are usef
                     <div class="info">
 
                         <b>24 Dec, 2020:</b>
-                       Sanchit has helped me a lot since I met him. His constant mentoring and support made me start a daily practice. It helped me get a good rank on coding contests and solve a lot of questions on Leetcode. I have solved more than 800 questions on Leetcode and hold an Expert rating on Codeforces. He assisted me to rise from my fails and relieving stress by playing Among Us and Scribble. I would not have reached this level without his consistent efforts he played the role of an advisor, mentor and counsellor throughout for me.
+                        Sanchit has helped me a lot since I met him. His constant mentoring and support made me start a daily practice. It helped me get a good rank on coding contests and solve a lot of questions on Leetcode. I have solved more than 800 questions on Leetcode and hold an Expert rating on Codeforces. He assisted me to rise from my fails and relieving stress by playing Among Us and Scribble. I would not have reached this level without his consistent efforts he played the role of an advisor, mentor and counsellor throughout for me.
 
                     </div>
                 </div>
-                 <div class="testimonial">
+                <div class="testimonial">
                     <div class="upper_half">
                         <div class="person_img">
                             <img src="assets/sanchit.jpg">
@@ -730,10 +744,11 @@ He motivated us time to time. He have shared many videos, messages that are usef
                         <button>Microsoft</button>
                     </div>
                     <div class="info">
-                        <b>24 Dec, 2020:</b> 
+                        <b>24 Dec, 2020:</b>
                         Sanchit was a huge help in me securing a job at Google. He gave me a referral, and could have stopped there as most do. However, he provided invaluable guidance about all parts of the process, discussed at length the merits and demerits of applying to various locations and went above and beyond by following up with the recruiters. He was also extremely helpful during the entire interview process, always ready to answer any and all queries. Apart from this, he also tried very hard to land me an internship at Google the previous year, even though we were well past the deadline for applications. Overall, I'm extremely grateful to Sanchit for everything he did over the past few years.
                     </div>
-                </div>  <div class="testimonial">
+                </div>
+                <div class="testimonial">
                     <div class="upper_half">
                         <div class="person_img">
                             <img src="assets/sanchit.jpg">
@@ -755,11 +770,12 @@ He motivated us time to time. He have shared many videos, messages that are usef
                         <button>Microsoft</button>
                     </div>
                     <div class="info">
-                        <b>24 Dec, 2020:</b> 
+                        <b>24 Dec, 2020:</b>
                         "
-Sanchit was the first senior with whom I interacted during my undergraduate. Since then, he has been super helpful to me throughout my studies, whether it be advise on approaching professors for projects, to career advice, interview tips and reviewing application materials, he has been incredibly gracious in helping me out through it all. Even after graduation, he kept in touch, and was ever ready to help me prepare for various opportunities, providing references as well as connecting me with other professionals to expand my network. In fact, the biggest reason that I am currently working as a Microsoft Intern, is because of Sanchit's referral. He is a gem of a person, and his technical as well as worldly knowledge is something that has always inspired me. I feel blessed to have come to know him!" 
+                        Sanchit was the first senior with whom I interacted during my undergraduate. Since then, he has been super helpful to me throughout my studies, whether it be advise on approaching professors for projects, to career advice, interview tips and reviewing application materials, he has been incredibly gracious in helping me out through it all. Even after graduation, he kept in touch, and was ever ready to help me prepare for various opportunities, providing references as well as connecting me with other professionals to expand my network. In fact, the biggest reason that I am currently working as a Microsoft Intern, is because of Sanchit's referral. He is a gem of a person, and his technical as well as worldly knowledge is something that has always inspired me. I feel blessed to have come to know him!"
                     </div>
-                </div>  <div class="testimonial">
+                </div>
+                <div class="testimonial">
                     <div class="upper_half">
                         <div class="person_img">
                             <img src="assets/sanchit.jpg">
@@ -781,12 +797,12 @@ Sanchit was the first senior with whom I interacted during my undergraduate. Sin
                         <button>Microsoft</button>
                     </div>
                     <div class="info">
-                        <b>24 Dec, 2020:</b> 
+                        <b>24 Dec, 2020:</b>
                         "Hello everyone, I am Ishapreet Kaur, from NIT, Kurukshetra. Being from non-CS background it's very difficult for someone to even think about to crack any software job or internship, similar case was with me as my branch is ECE , I was very confused like what to study, how to start then luckily I came to know about Sanchit, I told him everything then he gave me whole roadmap like what to study, which things you have to follow, how to practice data structures and algorithms, which platforms you have to follow for coding practice. And along with that he also asked me to give him weekly updates regarding my preparation. Along with this, Sanchit also helps the students by providing them refferal in Google and as well as in other good companies. As a mentor, he guides you so well that sooner or later with constant efforts you'll be able to crack great job. I personally learnt so many things under his guidance and I must say that he's doing great efforts by helping many students to achieve their dreams.
 
-Thank you." 
+                        Thank you."
                     </div>
-                </div> 
+                </div>
                 <div class="testimonial">
                     <div class="upper_half">
                         <div class="person_img">
@@ -809,14 +825,14 @@ Thank you."
                         <button>Microsoft</button>
                     </div>
                     <div class="info">
-                        <b>24 Dec, 2020:</b> 
+                        <b>24 Dec, 2020:</b>
                         "Sanchit is my college senior. However, we didn't know each other until two years after he graduated, when he helped me with a Google referral. Despite our lack of friendship, Sanchit left no stone unturned to make sure the G recruitment process works out for me.
 
-Most people would refer you on their company portal, and that's it - but Sanchit reviewed and improved my resume, actively talked to recruiters, hiring managers, and even directors to make sure I get the interviews, gave valuable tips on how to prepare for and perform in the interviews and, thanks to him, I ended up clearing the hiring committee. He also retrieved regular updates for my application when team matching took an unprecedented turn due to COVID and discussed with me my options so I can start my career just right.
+                        Most people would refer you on their company portal, and that's it - but Sanchit reviewed and improved my resume, actively talked to recruiters, hiring managers, and even directors to make sure I get the interviews, gave valuable tips on how to prepare for and perform in the interviews and, thanks to him, I ended up clearing the hiring committee. He also retrieved regular updates for my application when team matching took an unprecedented turn due to COVID and discussed with me my options so I can start my career just right.
 
-If you can tolerate his terrible puns and memes, Sanchit is a caring person who leaves his own interests behind, wishes the best for you & tries his best to make that happen."
+                        If you can tolerate his terrible puns and memes, Sanchit is a caring person who leaves his own interests behind, wishes the best for you & tries his best to make that happen."
                     </div>
-                </div> 
+                </div>
                 <div class="testimonial">
                     <div class="upper_half">
                         <div class="person_img">
@@ -840,7 +856,7 @@ If you can tolerate his terrible puns and memes, Sanchit is a caring person who 
                     </div>
                     <div class="info">
                         <b>24 Dec, 2020:</b> "Sanchit helped me during my Google internship interview preparation by telling me to practice Leetcode questions and doing contests. After the Google internship was over, I did not get a PPO and was getting rejected from company after company. I was really lost and messaged him out of the blue. He motivated me a lot and gave me an action plan. I will be forever be grateful to him that he did not give me sympathy or tell me everything will be ok. Instead, he helped me plan out the next steps so that I could achieve my goals. He told me to give contests on Codeforces. I started giving contests on Leetcode, AtCoder, Codeforces, CodeChef
- I was to give him weekly updates as well. Since, I had already done a good number of questions from leetcode and knew the concepts, he told me to give as many contests as possible to improve my speed and accuracy. Giving contests helped me solve problems under pressure and boosted my confidence. He correctly identified my weaknesses and gave me guidance to improve upon them. He is a kind, sharp and inspiring human and anyone would be luck to receive guidance from him :)"
+                        I was to give him weekly updates as well. Since, I had already done a good number of questions from leetcode and knew the concepts, he told me to give as many contests as possible to improve my speed and accuracy. Giving contests helped me solve problems under pressure and boosted my confidence. He correctly identified my weaknesses and gave me guidance to improve upon them. He is a kind, sharp and inspiring human and anyone would be luck to receive guidance from him :)"
                     </div>
                 </div>
             </div>
