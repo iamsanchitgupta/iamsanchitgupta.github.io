@@ -103,7 +103,7 @@ a:hover {
 
 @media screen and (max-width: 1500px) {
     .body {
-        max-width: 70vw;
+        max-width: 80vw;
         padding-left: 15%;
         padding-right: 15%;
     }
