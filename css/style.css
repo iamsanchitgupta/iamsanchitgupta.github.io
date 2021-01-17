@@ -11,8 +11,10 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    z-index: -999;
+    height: 100%;
+    z-index: -999;  
     position: fixed;
+    object-fit: cover;
 }
 
 button:focus {
@@ -181,8 +183,8 @@ a:hover {
 
 .body {
     width: 100%;
+    flex-grow: 1;
     display: flex;
-    /* margin-top: 70px; */
     padding-top: 110px;
     padding-bottom: 20px;
     align-items: center;

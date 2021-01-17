@@ -82,6 +82,19 @@ a:hover {
     overflow-y: auto;
 }
 
+#news_div::-webkit-scrollbar {
+  width: 6px;               /* width of the entire scrollbar */
+}
+
+#news_div::-webkit-scrollbar-track {
+  background: transparent;        /* color of the tracking area */
+}
+
+#news_div::-webkit-scrollbar-thumb {
+  background-color: #bebebe;    /* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+}
+
 .title {
     width: 100%;
     color: #efefef;
