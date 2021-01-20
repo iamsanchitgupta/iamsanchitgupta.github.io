@@ -96,6 +96,19 @@ a:hover {
   border-radius: 20px;       /* roundness of the scroll thumb */
 }
 
+ul {
+	position: relative;
+	list-style: none;
+	margin-left: 0;
+	padding-left: 1.2em;
+}
+
+ul li:before {
+	content: "&#8227";
+	position: absolute;
+	left: 0;
+}
+
 .title {
     width: 100%;
     font-size: 28px;
