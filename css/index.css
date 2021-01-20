@@ -83,7 +83,7 @@ a:hover {
 }
 
 #news_div::-webkit-scrollbar {
-  width: 6px;               /* width of the entire scrollbar */
+  width: 5px;               /* width of the entire scrollbar */
 }
 
 #news_div::-webkit-scrollbar-track {
@@ -91,7 +91,7 @@ a:hover {
 }
 
 #news_div::-webkit-scrollbar-thumb {
-  background-color: #bebebe;    /* color of the scroll thumb */
+  background-color: #3e987d;    /* color of the scroll thumb */
   border-radius: 20px;       /* roundness of the scroll thumb */
 }
 
