@@ -97,8 +97,9 @@ a:hover {
 
 .title {
     width: 100%;
-    color: #efefef;
     font-size: 28px;
+    color: #efefef;
+    padding-left: 80px;
 }
 
 #testimonials_div {

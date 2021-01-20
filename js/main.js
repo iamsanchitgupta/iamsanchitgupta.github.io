@@ -40,9 +40,20 @@ function setEventsForNavbar() {
     }
 }
 
+function copyLink() {
+    console.log("l")
+    $('#copy-inp').val(window.location.href);
+    $('#copy-inp').show();
+    $('#copy-inp').focus();
+    $('#copy-inp').select();
+    document.execCommand('copy');
+    $('#copy-inp').hide();
+}
+
 function initialize() {
     tippy('[data-tippy-content]')
     $(".menu-btn").on("click", toggleNavbar);
+    $(".copy").on("click", copyLink);
     setEventsForNavbar()
 
     $(window).resize(setEventsForNavbar);
