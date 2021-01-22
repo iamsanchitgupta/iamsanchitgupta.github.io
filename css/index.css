@@ -132,6 +132,14 @@ a:hover {
     }
 }
 
+@media screen and (max-width: 1150px) {
+    .body {
+        max-width: 90%;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}
+
 @media screen and (max-width: 900px) {
     .body {
         flex-direction: column;
