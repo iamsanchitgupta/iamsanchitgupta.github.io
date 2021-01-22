@@ -96,6 +96,10 @@ a:hover {
   border-radius: 20px;       /* roundness of the scroll thumb */
 }
 
+li {
+  margin: 3px 0;
+}
+
 .title {
     width: 100%;
     font-size: 28px;
