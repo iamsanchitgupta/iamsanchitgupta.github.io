@@ -118,17 +118,17 @@ a:hover {
 
 @media screen and (max-width: 1500px) {
     .body {
-        max-width: 80%;
-        padding-left: 10%;
-        padding-right: 10%;
+        max-width: 85%;
+        padding-left: 7.5%;
+        padding-right: 7.5%;
     }
 }
 
 @media screen and (max-width: 1350px) {
     .body {
-        max-width: 85%;
-        padding-left: 7.5%;
-        padding-right: 7.5%;
+        max-width: 90%;
+        padding-left: 5%;
+        padding-right: 5%;
     }
 }
 
