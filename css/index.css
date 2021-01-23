@@ -128,10 +128,10 @@ li {
         padding-right: 12.5%;
     }
 
-/*     .brief_detail {
-        padding-left: 40px;
-        padding-right: 40px;
-    } */
+    .brief_detail {
+        padding-left: 140px;
+        padding-right: 140px;
+    }
 }
 
 @media screen and (max-width: 1500px) {
