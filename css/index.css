@@ -138,6 +138,14 @@ li {
     }
 }
 
+@media screen and (max-width: 1800px) {
+    .body {
+        max-width: 75%;
+        padding-left: 12.5%;
+        padding-right: 12.5%;
+    }
+}
+
 @media screen and (max-width: 1500px) {
     .body {
         max-width: 85%;
