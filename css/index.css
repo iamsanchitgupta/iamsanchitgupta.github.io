@@ -105,7 +105,7 @@ li {
     width: 100%;
     font-size: 28px;
     color: #efefef;
-    padding-left: 80px;
+    padding-left: 8%;
 }
 
 #testimonials_div {
@@ -126,6 +126,11 @@ li {
         max-width: 75%;
         padding-left: 12.5%;
         padding-right: 12.5%;
+    }
+
+    .brief_detail {
+        padding-left: 40px;
+        padding-right: 40px;
     }
 }
 
