@@ -132,6 +132,10 @@ li {
         padding-left: 140px;
         padding-right: 140px;
     }
+    
+    .title {
+        padding-left: 18%;
+    }
 }
 
 @media screen and (max-width: 1500px) {
