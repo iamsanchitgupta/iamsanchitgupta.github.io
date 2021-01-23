@@ -39,6 +39,7 @@ a:hover {
     padding: 20px;
     align-items: center;
     flex-direction: column;
+    justify-content: center;
 }
 
 .brief_detail > div > div > a {
@@ -118,6 +119,14 @@ li {
     max-width: 60%;
     padding-left: 20%;
     padding-right: 20%;
+}
+
+@media screen and (max-width: 1800px) {
+    .body {
+        max-width: 75%;
+        padding-left: 12.5%;
+        padding-right: 12.5%;
+    }
 }
 
 @media screen and (max-width: 1500px) {
