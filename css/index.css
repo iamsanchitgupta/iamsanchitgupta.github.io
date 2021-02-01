@@ -63,7 +63,7 @@ a:hover {
     transition: transform .2s;
 }
 
-.subject_image_contact {
+#subject_image_contact {
     text-align: center;
     align-items: center;
     justify-content: center;
