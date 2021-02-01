@@ -65,6 +65,8 @@ a:hover {
 
 .subject_image_contact {
     text-align: center;
+    align-items: center;
+    justify-content: center;
 }
 
 .news, .testimonials {
