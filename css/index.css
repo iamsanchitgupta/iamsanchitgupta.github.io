@@ -63,6 +63,10 @@ a:hover {
     transition: transform .2s;
 }
 
+subject_image_contact {
+    text-align: center;
+}
+
 .news, .testimonials {
     width: 100%;
     display: flex;
