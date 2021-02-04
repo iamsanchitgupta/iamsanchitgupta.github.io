@@ -86,6 +86,8 @@ a:hover {
     max-height: 35vh;
     color: #e0e0e0;
     overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: #3e987d transparent;
 }
 
 #news_div::-webkit-scrollbar {
