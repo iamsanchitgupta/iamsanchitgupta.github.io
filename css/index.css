@@ -28,7 +28,7 @@ a:hover {
 
 .brief_detail {
     display: flex;
-    font-size: 18px;
+    font-size: 17px;
     color: #ebebeb;
     margin-top: 20px;
     flex-direction: row;
