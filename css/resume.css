@@ -51,3 +51,10 @@ a:hover {
         padding-right: 2.5%;
     }
 }
+
+.pdf-container {
+    width: 95%;
+    height: 80vh; /* Or a fixed height like 700px */
+    overflow: hidden;
+}
+
